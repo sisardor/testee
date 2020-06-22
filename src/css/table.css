@@ -1,0 +1,85 @@
+.Table {
+  width: 100%;
+  margin-top: 15px;
+}
+.headerRow,
+.evenRow,
+.oddRow {
+  border-bottom: 1px solid #e0e0e0;
+}
+.oddRow {
+  background-color: #fafafa;
+}
+.headerColumn {
+  text-transform: none;
+}
+.exampleColumn {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.checkboxLabel {
+  margin-left: .5rem;
+}
+.checkboxLabel:first-of-type {
+  margin-left: 0;
+}
+
+.noRows {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1em;
+  color: #bdbdbd;
+}
+
+
+
+
+
+body {
+  font-family: "Nunito Sans", -apple-system, ".SFNSText-Regular", "San Francisco", BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  color: rgb(51, 51, 51);
+  margin: 0px;
+  background: rgb(246, 249, 252);
+  overflow: hidden;
+}
+
+/* .ReactVirtualized__Table__headerRow, */
+.ReactVirtualized__Table__Grid {
+  background: white;
+}
+
+
+.ReactVirtualized__Table__row:hover {
+  background: #f3f3f3;
+}
+
+a {
+  /* color: #333; */
+  text-decoration: none;
+}
+
+.uk-label {
+  padding: 5px;
+  padding-right: 5px;
+  margin-right: 5px;
+}
+.uk-label-warning {
+  background: antiquewhite;
+}
+.uk-label-success {
+  background: aliceblue;
+}
+.uk-label-danger {
+  background: bisque;
+}
